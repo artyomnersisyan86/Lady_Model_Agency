@@ -1,0 +1,116 @@
+@media (max-width: 776px) {
+    ._container {
+        max-width: 776px;
+        margin: 0 auto;
+        box-sizing: content-box;
+    }
+
+    .header__menu {
+        margin: 0 0 0 40px;
+    }
+
+    .menu__bar {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header__container {
+        display: flex;
+        min-height: 36px;
+        justify-content: space-between;
+        padding: 11px 28px 0 28px;
+    }
+
+    .header {
+        border-bottom: none;
+    }
+
+    /*.header__container {*/
+    /*    justify-content: space-between;*/
+    /*    padding: 5px 28px 0 28px;*/
+    /*}*/
+    /*-----------------main block start----------------------------*/
+    .main-block__body {
+        margin: 85px 46px 29px 46px;
+        padding: 23px 30px 30px 23px;
+        position: relative;
+        z-index: 2;
+        /*min-width: 150px;*/
+        min-width: 228px;
+        /*height: 418px;*/
+        background: rgba(25, 25, 25, 0.75);
+        backdrop-filter: blur(1px);
+        border-radius: 10px;
+        text-align: center;
+        /*display: grid;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+
+    }
+
+    /*.main-block__body > * {*/
+    /*    margin: 0 0 25px 0;*/
+    /*}*/
+    .main-block__info {
+        max-width: 170px;
+        /*height: 168px;*/
+        box-sizing: content-box;
+
+    }
+
+    .main-block__title {
+        font-weight: 300;
+        font-size: 16px;
+        /*line-height: 57px;*/
+        line-height: calc(23 / 16 * 100%);
+        /*text-align: center;*/
+
+        color: #FFFFFF;
+    }
+
+
+    .main-block__text {
+        font-weight: 400;
+        font-size: 15px;
+        /*line-height: 46px;*/
+        line-height: calc(22 / 15 * 100%);
+        margin-top: 13px;
+        text-align: center;
+        text-transform: uppercase;
+        background: linear-gradient(90.46deg, #9B9965 12.74%, #727156 49.15%, #494720 96.25%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+    }
+
+    .main-block__buttons {
+        margin-top: 20px;
+        display: inline-flex;
+    }
+
+    .main-block__button {
+        display: flex;
+        justify-content: center;
+        /*align-items: center;*/
+        border: 2px solid;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: calc(14 / 10 * 100%);
+        min-height: 21px;
+        /* identical to box height, or 145% */
+        padding: 2px 34px 5px 34px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #807E54;
+    }
+
+    .main-block__button:hover {
+        color: #adac95;
+    }
+
+    /*-----------------main block ebd------------------------------*/
+}
