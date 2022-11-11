@@ -27,6 +27,7 @@ html, body {
     height: 100%;
     font-size: 16px;
     color: #6E6C3CFF;
+    background-color: black;
     font-family: 'Noto Serif JP', serif;
 }
 
@@ -247,9 +248,11 @@ html, body {
     text-transform: capitalize;
     color: #807E54;
 }
+
 .main-block__button:hover {
-     color: #adac95;
+    color: #adac95;
 }
+
 .main-block__image {
     position: absolute;
     width: 100%;
@@ -262,5 +265,40 @@ html, body {
     /*object-position: bottom;*/
 }
 
+/*-----------------INFO BLOCK START----------*/
+.info-block {
+
+}
+
+.page__info-block {
+
+}
+
+.info-block__container {
+
+}
+
+.info-block__body {
+
+}
+
+.info-block__left {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 483px;
+    height: 695px;
+    left: 142px;
+    top: 812px;
+
+    border: 2px solid #6E6C3C;
+    transform: rotate(-3.92deg);
+}
+
+.info-block__left__img {
+
+}
+
+/*-----------------INFO BLOCK END------------*/
 /*----------------main end-------------------*/
 

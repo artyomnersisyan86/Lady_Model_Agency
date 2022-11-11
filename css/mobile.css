@@ -51,15 +51,6 @@
 
     }
 
-    /*.main-block__body > * {*/
-    /*    margin: 0 0 25px 0;*/
-    /*}*/
-    .main-block__info {
-        max-width: 170px;
-        /*height: 168px;*/
-        box-sizing: content-box;
-
-    }
 
     .main-block__title {
         font-weight: 300;
